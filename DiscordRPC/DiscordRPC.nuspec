@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <metadata xmlns="http://schemas.microsoft.com/packaging/21.0.07/nuspec.xsd">
-    <id>DiscordRichPresence</id>
+    <id>ZeroMayo.DiscordRichPresence</id>
     <version>1.0.0.0</version>
-    <authors>Lachee</authors>
-    <owners>Lachee</owners>
+    <authors>ZeroMayo</authors>
+    <owners>ZeroMayo</owners>
     <title>Discord Rich Presence</title>
     <description>
       A .NET implementation of Discord's Rich Presence functionality. This library supports all features of the Rich Presence that the official C++ library supports, plus a few extra.
@@ -14,12 +14,12 @@
 
 This is an unoffical, non-discord supported library.
     </description>
-    <summary>Discord Rich Presence for your .NET project</summary>
+    <summary>Discord Rich Presence for your .NET project. originally developed by Lachee and modified/maintained by ZeroMayo.</summary>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/Lachee/discord-rpc-csharp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
-    <tags>Discord Discord Rich Presence RPC Discord-RPC</tags>
+    <tags>Discord Discord Rich Presence RPC Discord-RPC ZeroMayo</tags>
     <dependencies>
       <!-- .NET 9 (modern) -->
       <group targetFramework="net9.0">
