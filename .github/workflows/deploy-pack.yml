@@ -34,7 +34,7 @@ jobs:
         with:
           user: ${{ secrets.NUGET_USER }}
 
-      - name: Pack (Framework)
+      - name: Pack
         run: dotnet pack -c Release DiscordRPC /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
 
       - name: Upload artifacts
