@@ -33,6 +33,13 @@ jobs:
         id: login
         with:
           user: ${{ secrets.NUGET_USER }}
+          
+      # Version the repository
+      - name: Update Versions
+        shell: pwsh
+        run: |
+          ./.github/workflows/scripts/PatchAssemblyInfoVersion.ps1 ${{ github.ref_name }}
+          ./.github/workflows/scripts/PatchNuspecVersion.ps1 ${{ github.ref_name }}
 
       - name: Pack
         run: dotnet pack -c Release DiscordRPC /p:Version=${{ github.ref_name }} /p:GenerateDocumentationFile=true /p:IncludeSymbols=true /p:SymbolPackageFormat=snupkg -o ${{steps.artifactsPath.outputs.nuget_artifacts}}
