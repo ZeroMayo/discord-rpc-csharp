@@ -16,7 +16,7 @@ This is an unoffical, non-discord supported library.
     </description>
     <summary>Discord Rich Presence for your .NET project. originally developed by Lachee and modified/maintained by ZeroMayo.</summary>
     <license type="expression">MIT</license>
-    <projectUrl>https://github.com/Lachee/discord-rpc-csharp</projectUrl>
+    <projectUrl>https://github.com/ZeroMayo/discord-rpc-csharp</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <releaseNotes></releaseNotes>
     <tags>Discord Discord Rich Presence RPC Discord-RPC ZeroMayo</tags>
